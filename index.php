@@ -585,7 +585,7 @@ require_once 'navbar.php';
         </div>
     </div>
 
-    <div class="modal fade" id="update_alternatif" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="update_kriteria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
             <div class="modal-header">
@@ -957,7 +957,7 @@ require_once 'navbar.php';
             $('#update_c9').val(column9);
             $('#update_c10').val(column10);
 
-            $('#update_alternatif').modal('show');
+            $('#update_kriteria').modal('show');
         });
 
         $('#main-table tr #button_update').on('click', function()
